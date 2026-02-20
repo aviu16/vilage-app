@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E971AB3F2B39C51A00728810 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = E971AB3E2B39C51A00728810 /* Supabase */; settings = {ATTRIBUTES = (Required, ); }; };
+		E980076E2B3C530C00A99C88 /* 00005.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E980076D2B3C530C00A99C88 /* 00005.mp4 */; };
 		E9AB8A6A2B39A72300C56AE0 /* VilageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB8A692B39A72300C56AE0 /* VilageApp.swift */; };
-		E9AB8A6C2B39A72300C56AE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB8A6B2B39A72300C56AE0 /* ContentView.swift */; };
+		E9AB8A6C2B39A72300C56AE0 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB8A6B2B39A72300C56AE0 /* HomeScreenView.swift */; };
 		E9AB8A6E2B39A72400C56AE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AB8A6D2B39A72400C56AE0 /* Assets.xcassets */; };
 		E9AB8A712B39A72400C56AE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AB8A702B39A72400C56AE0 /* Preview Assets.xcassets */; };
 		E9AB8A7B2B39A72500C56AE0 /* VilageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB8A7A2B39A72500C56AE0 /* VilageTests.swift */; };
 		E9AB8A852B39A72500C56AE0 /* VilageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB8A842B39A72500C56AE0 /* VilageUITests.swift */; };
 		E9AB8A872B39A72500C56AE0 /* VilageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB8A862B39A72500C56AE0 /* VilageUITestsLaunchTests.swift */; };
+		E9AB8A942B39A78300C56AE0 /* ImageUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB8A932B39A78300C56AE0 /* ImageUploadView.swift */; };
+		E9AB8A962B39A7BB00C56AE0 /* VideoProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AB8A952B39A7BB00C56AE0 /* VideoProcessingView.swift */; };
+		E9AB8A992B39A88E00C56AE0 /* Replicate in Frameworks */ = {isa = PBXBuildFile; productRef = E9AB8A982B39A88E00C56AE0 /* Replicate */; };
+		E9AB8A9C2B39BFB100C56AE0 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = E9AB8A9B2B39BFB100C56AE0 /* Storage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E980076D2B3C530C00A99C88 /* 00005.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 00005.mp4; path = ../../../Downloads/00005.mp4; sourceTree = "<group>"; };
 		E9AB8A662B39A72300C56AE0 /* Vilage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vilage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AB8A692B39A72300C56AE0 /* VilageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VilageApp.swift; sourceTree = "<group>"; };
-		E9AB8A6B2B39A72300C56AE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9AB8A6B2B39A72300C56AE0 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		E9AB8A6D2B39A72400C56AE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9AB8A702B39A72400C56AE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9AB8A762B39A72500C56AE0 /* VilageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VilageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,8 @@
 		E9AB8A802B39A72500C56AE0 /* VilageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VilageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AB8A842B39A72500C56AE0 /* VilageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VilageUITests.swift; sourceTree = "<group>"; };
 		E9AB8A862B39A72500C56AE0 /* VilageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VilageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9AB8A932B39A78300C56AE0 /* ImageUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploadView.swift; sourceTree = "<group>"; };
+		E9AB8A952B39A7BB00C56AE0 /* VideoProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProcessingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9AB8A9C2B39BFB100C56AE0 /* Storage in Frameworks */,
+				E9AB8A992B39A88E00C56AE0 /* Replicate in Frameworks */,
+				E971AB3F2B39C51A00728810 /* Supabase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +83,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E971AB3D2B39C51A00728810 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E9AB8A5D2B39A72300C56AE0 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +97,7 @@
 				E9AB8A792B39A72500C56AE0 /* VilageTests */,
 				E9AB8A832B39A72500C56AE0 /* VilageUITests */,
 				E9AB8A672B39A72300C56AE0 /* Products */,
+				E971AB3D2B39C51A00728810 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +115,10 @@
 			isa = PBXGroup;
 			children = (
 				E9AB8A692B39A72300C56AE0 /* VilageApp.swift */,
-				E9AB8A6B2B39A72300C56AE0 /* ContentView.swift */,
+				E9AB8A6B2B39A72300C56AE0 /* HomeScreenView.swift */,
+				E9AB8A932B39A78300C56AE0 /* ImageUploadView.swift */,
+				E9AB8A952B39A7BB00C56AE0 /* VideoProcessingView.swift */,
+				E980076D2B3C530C00A99C88 /* 00005.mp4 */,
 				E9AB8A6D2B39A72400C56AE0 /* Assets.xcassets */,
 				E9AB8A6F2B39A72400C56AE0 /* Preview Content */,
 			);
@@ -143,6 +166,11 @@
 			dependencies = (
 			);
 			name = Vilage;
+			packageProductDependencies = (
+				E9AB8A982B39A88E00C56AE0 /* Replicate */,
+				E9AB8A9B2B39BFB100C56AE0 /* Storage */,
+				E971AB3E2B39C51A00728810 /* Supabase */,
+			);
 			productName = Vilage;
 			productReference = E9AB8A662B39A72300C56AE0 /* Vilage.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +243,10 @@
 				Base,
 			);
 			mainGroup = E9AB8A5D2B39A72300C56AE0;
+			packageReferences = (
+				E9AB8A972B39A88E00C56AE0 /* XCRemoteSwiftPackageReference "replicate-swift" */,
+				E9AB8A9A2B39BE5200C56AE0 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
 			productRefGroup = E9AB8A672B39A72300C56AE0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9AB8A712B39A72400C56AE0 /* Preview Assets.xcassets in Resources */,
+				E980076E2B3C530C00A99C88 /* 00005.mp4 in Resources */,
 				E9AB8A6E2B39A72400C56AE0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9AB8A6C2B39A72300C56AE0 /* ContentView.swift in Sources */,
+				E9AB8A942B39A78300C56AE0 /* ImageUploadView.swift in Sources */,
+				E9AB8A6C2B39A72300C56AE0 /* HomeScreenView.swift in Sources */,
 				E9AB8A6A2B39A72300C56AE0 /* VilageApp.swift in Sources */,
+				E9AB8A962B39A7BB00C56AE0 /* VideoProcessingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +623,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9AB8A972B39A88E00C56AE0 /* XCRemoteSwiftPackageReference "replicate-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/replicate/replicate-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.20.0;
+			};
+		};
+		E9AB8A9A2B39BE5200C56AE0 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E971AB3E2B39C51A00728810 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9AB8A9A2B39BE5200C56AE0 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+		E9AB8A982B39A88E00C56AE0 /* Replicate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9AB8A972B39A88E00C56AE0 /* XCRemoteSwiftPackageReference "replicate-swift" */;
+			productName = Replicate;
+		};
+		E9AB8A9B2B39BFB100C56AE0 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9AB8A9A2B39BE5200C56AE0 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E9AB8A5E2B39A72300C56AE0 /* Project object */;
 }
